@@ -126,6 +126,38 @@ span.pre-title {
     display: flex;
     align-items: end;
 }
+.dl-btn {
+    display: flex;
+    justify-content: center;
+}
+
+a.btn.dl {
+    color: black;
+    background: #ffffffc2;
+    margin: .5rem;
+    font-size: 16px;
+    box-shadow: #00000036 1px 1px 5px 1px;
+}
+
+a.btn.dl.cyan {
+    background: rgb(0, 186, 175);
+    color: white;
+
+}
+
+a.btn.dl.xd {
+    background: #94186f;
+    color: white;
+}
+
+
+a.btn.dl:hover {
+    background: #000c;
+    animation: auto;
+    color: white;
+    animation-duration: 10s;
+    box-shadow: #00000036 2px 2px 5px 2px;
+}
 a.btn.back {
     color: black;
     background: #ffffffc2;
