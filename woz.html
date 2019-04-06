@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <META NAME="ROBOTS" CONTENT="NOINDEX,NOFOLLOW">
+
+
+  <title>Phil Wornath | BEP - Wizard of Oz Prototyping</title>
+
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.rawgit.com/afeld/bootstrap-toc/v1.0.1/dist/bootstrap-toc.min.css"/>
+ 
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="assets/css/custom.css">
+
+  <link rel="stylesheet" href="assets/css/bootstrap3_player.css">
+
+
+
+</head>
+
+<body data-spy="scroll" data-target="#toc" style="background: url('assets/img/bg_ABtesting.jpg') no-repeat center center fixed;">
+  <div class="topbar container">
+      <div class="logowrap"> <a href="index.html"><img src="logo_thuas.png" ></a> </div>
+  </div>
+
+
+ 
+
+  <div class="container">
+      
+    <div class="sidenav">
+        <div class="logowrap"> <a href="index.html"><img src="logo_thuas.png" ></a> </div>
+  
+        <nav id="toc" data-toggle="toc"></nav>
+  
+    </div>
+  
+      
+
+    <div class="precard card border-0 shadow my-5">
+
+        <div class="mainheading">
+            <a href="index.html" class="btn back" >❮</a>
+  
+          <h1 data-toc-skip class="posttitle"><span class="title-category">Week 7/8:</span> <span class="title">  "Wizard of Oz" - Prototyping</span></h1>
+        </div>
+        
+        <div class="card-body p-5">
+
+          <h2>7.1 Introduction</h2>
+          <p>The next 2 weeks, we are going to work under the motto &ldquo;Fake it, till you make it&rdquo;. Nothing particularly new to me, I thought. But as it turned out, the way we do this in terms of prototyping was something not entirely new to me, but definitely an interesting task. To be exact: Our assignment deals with &ldquo;Wizard of Oz&rdquo;-prototyping. The cool thing about this kind of prototype was not clear to me in the beginning &ndash; but I am happy to explain it: Without the effort of developing a fully featured software, that dynamically reacts on the user&rsquo;s input, The software is working from the visual perspective, while the functional side is still emulated by a human being.</p>
+          <p>This still sounds way too abstract to you? Well, let me give a few examples, where such things happened in the past:</p>
+          <ul>
+          <li><strong>&ldquo;The chess Turk&rdquo;</strong> &ndash; was a so called chess-&ldquo;robot&rdquo;, which consisted both of a checkerboard and a puppet, while the entire functional side and motion were controlled by a human sitting right underneath the checkerboard. However, the audience still perceived as legitimate chess robot.</li>
+          <li><strong>A translation software</strong>, that pretended to use a computer-generated voice, but factually used human translators to complete that job.</li>
+          </ul>
+
+          <h2>7.2 Our task: Create a &ldquo;Wizard of Oz&rdquo;-Prototype</h2>
+          <p>In a nutshell, we got the assignment to create our own &ldquo;Wizard of Oz&rdquo;-Prototype using the following ingredients:</p>
+          <ul>
+          <li>Create a <strong>visualization / game</strong>, that reacts to the user&rsquo;s input &ndash; This could be either achieved using Processing (Java compiler for digital artists / designers), but we are still free to use anything else that could serve this purpose.</li>
+          <li>A piece of <strong>software used for &ldquo;mapping&rdquo;, </strong>that enables us to <strong>map our visuals / game to every possible surface</strong> (e.g. at both the wall and ground at the same time without facing any distortion effects.</li>
+          <li>Video projector</li>
+          <li>Emphasize in social interaction between the users</li>
+          <li>Hardware/software-supported interaction detection / processing <strong>Again- this part is not needed, as it&rsquo;s a &ldquo;Wizard of Oz-Prototype&rdquo; and thus </strong>it is part of our manual work as a team: To see, what our users do and react with different functional states .</li>
+          </ul>
+
+          <h2>7.3 Our Wizard of Oz prototype-setup</h2>
+          <p>For this assignment, I formed a team with Justus Bremer, with whom I came to a quick agreement on what kind of prototype to use. As we both created a &ldquo;catching&rdquo;-game in Processing before, we started right away with an ideation session on how to include the social interaction of min. 2 players in this game.</p>
+          <p>Our final concept, although did not have a lot in common with the both games we created before. The ideation session lead us to an entirely new interpretation of this game concept.</p>
+          <p>The idea:</p>
+          <p>Instead of catching items falling from the top of the screen, there would be 5 lanes with 3 or 2 items falling from the top. In addition to that, we thought about the aspect on how to include emotions in the social interaction and thus decided to use objects, people connect fears or disgust with.</p>
+         
+          <h2>8.1 The execution: Evade the president [+ VIDEO &amp; CODE]</h2>
+         
+          <p>After translating our concept into code, we ended up with 3 different politicians being displayed as icons dropping from the top of the screen. The game itself is based on Java / Processing and can be downloaded from the following repository.</p>
+
+          <figure class="figure">
+            <figcaption>Please find attached the Processing code for our Wizard of Oz prototype.</figcaption>
+
+          <div class="dl-btn" >
+            <a href="https://github.com/philffm/Beppogame"  class="btn dl" target="_blank">View GitHub repository</a>
+
+
+          </div>     
+          <div class="dl-btn" >
+          </div>       
+        </figure>  
+
+          <p>In order to display the running instance of our game on the projector, we used &ldquo;Syphoner&rdquo; as a gateway and &ldquo;MadMapper&rdquo; for the output. Although we already prepared the correct mapping for horizontal display on the wall, we spontaneously decided to flip the projector by 90 degrees, in order to achieve a higher level of immersiveness for our users &ndash; but convince yourself:</p>
+
+          <figure class="figure">
+            <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/1bUBKNujXbQ" allowfullscreen></iframe>
+            </div>
+            <figcaption> <strong>Figure 2:</strong>  Video documentation showing the testing process of our Wizard of Oz prototype.</figcaption>
+        </figure>  
+
+          <figure class="figure">
+            <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img class="d-block w-100" src="assets/img/woosession/1.jpg" alt="First slide">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>The projector: 90° of duct tape magic</h5>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="assets/img/woosession/2.jpg" alt="Second slide">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Still looking for a partner</h5>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="assets/img/woosession/4.jpg" alt="Third slide">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Found her!</h5>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="assets/img/woosession/3.jpg" alt="Third slide">
+                  
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="assets/img/woosession/5.jpg" alt="Third slide">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>That's fun, right?</h5>
+                  </div>
+                </div>
+              </div>
+              <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>            <figcaption> <strong>Figure 3:</strong>  Images of setups and participants using our Wizard of Oz prototype.</figcaption>
+        </figure>  
+
+
+
+      
+          <h2>8.2 Evaluation</h2>
+
+          <p>When we got the assignment, the actual potential of Wizard of Oz prototyping was not yet entirely clear to me. I assumed, the effort is going to be high, while the outcome will be comparatively low. To my surprise, once I started digging in deeper to the concept of Wizard of Oz prototyping, the whole idea and the value behind it became clear to me .</p>
+          <p>I started understanding, how testing of prototypes that are already perceived as fully functional by the users is made possible with a comparably low effort. This allows large scale testing already in a very early stage, using simple code without needing to build the fully interactive product.</p>
+          <p>Thus, I am very sure to make use of this prototyping concept more often from now on.</p>
+
+     </div>
+
+
+    </div>
+    <footer class="footer">
+      <p>© Phil Wornath  - 2019</p>
+    </footer>
+
+
+
+    
+  </div> <!-- /container -->
+
+  <!-- Latest compiled and minified JavaScript -->
+  <!--<script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>-->
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+  <script src="https://cdn.rawgit.com/afeld/bootstrap-toc/v1.0.1/dist/bootstrap-toc.min.js"></script>
+
+
+</body>
+
+</html>
