@@ -212,10 +212,6 @@ nav[data-toggle=toc] .nav>li>a {
     color: #000000;
 }
 
-.col-lg-12 {
-    padding: 0;
-}
-
 
 @media (min-width: 992px) and (max-width: 1199.98px) { 
     
